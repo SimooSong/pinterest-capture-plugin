@@ -1,0 +1,25 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "simoo-plugins",
+  "description": "SimooSong의 Claude Code 플러그인 모음",
+  "owner": {
+    "name": "SimooSong",
+    "email": "simoolook123@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "pinterest-capture",
+      "description": "Pinterest에서 키워드 기반 레퍼런스 이미지를 30장 자동 캡처합니다. Playwright MCP 기반, 검색/캡처 서브에이전트 분리, 중복 방지 및 미리보기 확인 포함.",
+      "author": {
+        "name": "SimooSong",
+        "email": "simoolook123@gmail.com"
+      },
+      "category": "design",
+      "source": {
+        "source": "github",
+        "repo": "SimooSong/pinterest-capture-plugin"
+      },
+      "homepage": "https://github.com/SimooSong/pinterest-capture-plugin"
+    }
+  ]
+}
