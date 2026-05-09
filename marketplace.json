@@ -1,0 +1,22 @@
+{
+  "name": "pinterest-capture-plugin",
+  "display_name": "Pinterest Reference Capture",
+  "version": "1.0.0",
+  "description": "Pinterest에서 키워드 기반 레퍼런스 이미지를 30장 자동 캡처합니다. Playwright MCP 기반, 검색/캡처 서브에이전트 분리 구조, 중복 방지 및 미리보기 확인 포함.",
+  "author": "simoolook123",
+  "github": "simoolook123/pinterest-capture-plugin",
+  "tags": ["pinterest", "image", "capture", "reference", "playwright", "mcp", "design"],
+  "category": "design-tools",
+  "visibility": "public",
+  "requires": {
+    "mcp": ["playwright"],
+    "node": ">=18.0.0"
+  },
+  "commands": [
+    {
+      "name": "pinterest-capture",
+      "usage": "/pinterest-capture [키워드]",
+      "description": "Pinterest 키워드 검색 → 30장 자동 캡처 → 로컬 저장"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "pinterest-capture",
+  "version": "1.0.0",
+  "description": "Pinterest에서 키워드 기반 레퍼런스 이미지를 30장 자동 캡처하여 저장하는 플러그인",
+  "author": "simoolook123",
+  "claude_plugin": true,
+  "commands": [
+    {
+      "name": "pinterest-capture",
+      "description": "Pinterest에서 키워드에 맞는 레퍼런스 이미지 30장을 캡처합니다",
+      "skill": "skills/capture"
+    }
+  ],
+  "skills": [
+    {
+      "name": "search",
+      "path": "skills/search",
+      "description": "Pinterest 검색 서브에이전트: 키워드로 이미지 URL 수집"
+    },
+    {
+      "name": "capture",
+      "path": "skills/capture",
+      "description": "캡처 서브에이전트: 수집된 이미지를 스크린샷으로 저장"
+    }
+  ],
+  "mcp": {
+    "config": ".mcp.json"
+  }
+}
